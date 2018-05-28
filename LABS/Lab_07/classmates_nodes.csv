@@ -1,0 +1,51 @@
+id;Name;Gender;Program;Specialization;Java;Python;R;WebProgramming;DataViz
+1;Paolo Didier Alfano;Male;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";5;3;0;4;1
+2;Simone Appella;Male;Master's Degree;Stochastics and Data Science;0;3;3;2;3
+3;Edoardo Arnaudo;Male;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";4;1;0;3;0
+4;Enrico Maria Belliardo;Male;Master's Degree;Stochastics and Data Science;0;4;4;0;0
+5;Claudia Berloco;Female;Ph.D.;Others;0;1;4;0;1
+6;Samuele Bertaina;;;Stochastics and Data Science;0;3;4;0;2
+7;Lorenzo Bosio;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";5;2;0;4;0
+8;Andrea Bragagnolo;Male;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";4;0;0;3;0
+9;Daniele Brun;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";5;3;0;4;2
+10;Francesco Carli;Male;Master's Degree;Stochastics and Data Science;1;3;3;1;2
+11;Fabio Carretto;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";5;5;0;4;4
+12;Antonio Carriero;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";3;1;0;4;0
+13;Michele Castrovilli;Male;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";3;3;0;4;3
+14;Francesco Cerrato;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";5;3;0;4;1
+15;Luca Cocchetti;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";4;2;1;4;0
+16;Gabriele Cucinelli;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";4;1;0;4;0
+17;Luca De Carne;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";4;1;1;5;2
+18;Leandro Delgado;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";2;4;1;2;2
+19;Dario Delle Vedove;Female;Master's Degree;Stochastics and Data Science;0;2;3;0;2
+20;Matteo Di Cunzolo;Male;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";4;3;0;0;0
+21;Fabrizio Di Priamo;Male;Master's Degree;Stochastics and Data Science;0;3;3;0;0
+22;Madeleine Duretete;Female;Master's Degree;Stochastics and Data Science;4;4;3;1;0
+23;Nicolò Ferretti;Male;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";4;3;0;2;0
+24;Mario Ferrulli;Male;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";5;2;2;1;2
+25;Gianmarco Izzi;Male;Master's Degree;"Computer Science, curriculum ""Multimedia and Virtual Reality""";4;3;0;3;2
+26;Fabio Loche;Male;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";4;4;0;4;2
+27;Chiara Madeddu;Female;Master's Degree;"Computer Science, curriculum ""Multimedia and Virtual Reality""";5;2;0;5;3
+28;Daniele Maronese;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";4;1;0;3;0
+29;Kate May;Female;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";4;3;1;3;3
+30;Stefano Mazza;Male;Master's Degree;"Computer Science, curriculum ""Multimedia and Virtual Reality""";2;3;0;4;3
+31;Michel Miegge;Male;Master's Degree;"Computer Science, curriculum ""Multimedia and Virtual Reality""";5;0;0;5;0
+32;Manuel Monaco;Male;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";5;3;0;4;0
+33;Marco Murtinu;Male;Master's Degree;Stochastics and Data Science;1;1;4;0;1
+34;Leonardo Neves Pinto;Male;Master's Degree;Stochastics and Data Science;2;4;5;2;4
+35;Luis Olimpio;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";4;2;1;4;0
+36;Vanessa Orani;Female;Master's Degree;Stochastics and Data Science;3;2;3;0;1
+37;Eleonora Pennetta;Female;Master's Degree;Stochastics and Data Science;1;3;3;1;1
+38;Matteo Petrosino;Male;Master's Degree;Stochastics and Data Science;1;2;4;0;0
+39;Sara Pezzuolo;Female;Master's Degree;Stochastics and Data Science;0;3;2;0;0
+40;Riccardo Pollo;Male;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";4;3;1;3;0
+41;Valeria Proietti Dante;Female;Master's Degree;"Computer Science, curriculum ""Multimedia and Virtual Reality""";4;4;0;1;1
+42;Silvia Ronchiadin;Female;Ph.D.;Others;4;4;4;4;3
+43;Maurizio Rosignoli;Male;Other;"Computer Science, curriculum ""Multimedia and Virtual Reality""";4;3;0;4;2
+44;Daniele Scanu;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";4;2;0;4;1
+45;Fabio Soffia;Male;Master's Degree;"Computer Science, curriculum ""Artificial Intelligence""";5;0;0;5;0
+46;Elisabetta Sola;Female;Master's Degree;Stochastics and Data Science;0;3;4;0;0
+47;Giuseppe Squillace;Male;Master's Degree;"Computer Science, curriculum ""Networks and Information Systems""";4;1;0;2;0
+48;Adane Nega Tarakegn;Male;Ph.D.;Stochastics and Data Science;3;2;1;4;1
+49;Ilaria Trano;Female;Master's Degree;Stochastics and Data Science;0;3;4;0;0
+50;Alessia Valentino;Female;Master's Degree;Stochastics and Data Science;0;0;3;0;0

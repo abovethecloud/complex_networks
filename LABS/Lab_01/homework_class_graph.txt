@@ -1,0 +1,5 @@
+Create and explore a network of classmates
+
+The classmates_AdjMatrix.csv file below contains an Adjacency Matrix reproducing pre-existing relationships in this year class: more than enough to create your classmates graph. The matrix is the result of some cleaning and further modification on data you inserted through the second form you filled out. Selfloops ("myself") have been removed, and 0, 1 and 2 substitute "unknown", "acquaintance", and "friend". It may contain errors and it has some gaps. Usually no information means "no link" and it can be interpreted as equivalent to "unknown". However, feel free to modify and correct your own copy.
+
+Note: The graph contains 50 nodes and 597 directed edges (336 if the graph is converted to undirected).
