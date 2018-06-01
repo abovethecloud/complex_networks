@@ -1,0 +1,1844 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="weight" attr.type="long" for="edge" id="d0"/>
+<graph edgedefault="directed"><node id="Paolo Didier Alfano"/>
+<node id="Simone Appella"/>
+<node id="Edoardo Arnaudo"/>
+<node id="Enrico Maria Belliardo"/>
+<node id="Claudia Berloco"/>
+<node id="Samuele Bertaina"/>
+<node id="Lorenzo Bosio"/>
+<node id="Andrea Bragagnolo"/>
+<node id="Daniele Brun"/>
+<node id="Francesco Carli"/>
+<node id="Fabio Carretto"/>
+<node id="Antonio Carriero"/>
+<node id="Michele Castrovilli"/>
+<node id="Francesco Cerrato"/>
+<node id="Luca Cocchetti"/>
+<node id="Gabriele Cucinelli"/>
+<node id="Luca De Carne"/>
+<node id="Leandro Delgado"/>
+<node id="Dario Delle Vedove"/>
+<node id="Matteo Di Cunzolo"/>
+<node id="Fabrizio Di Priamo"/>
+<node id="Madeleine Duretete"/>
+<node id="Nicolò Ferretti"/>
+<node id="Mario Ferrulli"/>
+<node id="Gianmarco Izzi"/>
+<node id="Fabio Loche"/>
+<node id="Chiara Madeddu"/>
+<node id="Daniele Maronese"/>
+<node id="Kate May"/>
+<node id="Stefano Mazza"/>
+<node id="Michel Miegge"/>
+<node id="Manuel Monaco"/>
+<node id="Marco Murtinu"/>
+<node id="Leonardo Neves Pinto"/>
+<node id="Luis Olimpio"/>
+<node id="Vanessa Orani"/>
+<node id="Eleonora Pennetta"/>
+<node id="Matteo Petrosino"/>
+<node id="Sara Pezzuolo"/>
+<node id="Riccardo Pollo"/>
+<node id="Valeria Proietti Dante"/>
+<node id="Silvia Ronchiadin"/>
+<node id="Maurizio Rosignoli"/>
+<node id="Daniele Scanu"/>
+<node id="Fabio Soffia"/>
+<node id="Elisabetta Sola"/>
+<node id="Giuseppe Squillace"/>
+<node id="Adane Nega Tarakegn"/>
+<node id="Ilaria Trano"/>
+<node id="Alessia Valentino"/>
+<edge source="Paolo Didier Alfano" target="Simone Appella">
+  <data key="d0">1</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Edoardo Arnaudo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Lorenzo Bosio">
+  <data key="d0">1</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Fabio Loche">
+  <data key="d0">2</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Kate May">
+  <data key="d0">2</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Vanessa Orani">
+  <data key="d0">1</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Riccardo Pollo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Valeria Proietti Dante">
+  <data key="d0">2</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Fabio Soffia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Paolo Didier Alfano" target="Giuseppe Squillace">
+  <data key="d0">2</data>
+</edge>
+<edge source="Simone Appella" target="Edoardo Arnaudo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Simone Appella" target="Enrico Maria Belliardo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Simone Appella" target="Samuele Bertaina">
+  <data key="d0">1</data>
+</edge>
+<edge source="Simone Appella" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Simone Appella" target="Dario Delle Vedove">
+  <data key="d0">2</data>
+</edge>
+<edge source="Simone Appella" target="Fabrizio Di Priamo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Simone Appella" target="Madeleine Duretete">
+  <data key="d0">1</data>
+</edge>
+<edge source="Simone Appella" target="Marco Murtinu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Simone Appella" target="Leonardo Neves Pinto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Simone Appella" target="Vanessa Orani">
+  <data key="d0">2</data>
+</edge>
+<edge source="Simone Appella" target="Eleonora Pennetta">
+  <data key="d0">2</data>
+</edge>
+<edge source="Simone Appella" target="Matteo Petrosino">
+  <data key="d0">1</data>
+</edge>
+<edge source="Simone Appella" target="Sara Pezzuolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Simone Appella" target="Elisabetta Sola">
+  <data key="d0">1</data>
+</edge>
+<edge source="Simone Appella" target="Ilaria Trano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Simone Appella">
+  <data key="d0">1</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Lorenzo Bosio">
+  <data key="d0">2</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Andrea Bragagnolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Daniele Brun">
+  <data key="d0">1</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Fabio Carretto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Gianmarco Izzi">
+  <data key="d0">1</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Fabio Loche">
+  <data key="d0">1</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Michel Miegge">
+  <data key="d0">1</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Manuel Monaco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Riccardo Pollo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Edoardo Arnaudo" target="Giuseppe Squillace">
+  <data key="d0">1</data>
+</edge>
+<edge source="Enrico Maria Belliardo" target="Simone Appella">
+  <data key="d0">1</data>
+</edge>
+<edge source="Enrico Maria Belliardo" target="Samuele Bertaina">
+  <data key="d0">2</data>
+</edge>
+<edge source="Enrico Maria Belliardo" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Enrico Maria Belliardo" target="Dario Delle Vedove">
+  <data key="d0">2</data>
+</edge>
+<edge source="Enrico Maria Belliardo" target="Fabrizio Di Priamo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Enrico Maria Belliardo" target="Madeleine Duretete">
+  <data key="d0">2</data>
+</edge>
+<edge source="Enrico Maria Belliardo" target="Vanessa Orani">
+  <data key="d0">1</data>
+</edge>
+<edge source="Enrico Maria Belliardo" target="Matteo Petrosino">
+  <data key="d0">2</data>
+</edge>
+<edge source="Enrico Maria Belliardo" target="Sara Pezzuolo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Enrico Maria Belliardo" target="Elisabetta Sola">
+  <data key="d0">1</data>
+</edge>
+<edge source="Claudia Berloco" target="Silvia Ronchiadin">
+  <data key="d0">1</data>
+</edge>
+<edge source="Claudia Berloco" target="Adane Nega Tarakegn">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Simone Appella">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Enrico Maria Belliardo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Francesco Carli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Dario Delle Vedove">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Fabrizio Di Priamo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Madeleine Duretete">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Marco Murtinu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Samuele Bertaina" target="Leonardo Neves Pinto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Vanessa Orani">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Eleonora Pennetta">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Matteo Petrosino">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Sara Pezzuolo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Samuele Bertaina" target="Ilaria Trano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Samuele Bertaina" target="Alessia Valentino">
+  <data key="d0">1</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Edoardo Arnaudo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Andrea Bragagnolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Daniele Brun">
+  <data key="d0">2</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Fabio Carretto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Antonio Carriero">
+  <data key="d0">1</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Francesco Cerrato">
+  <data key="d0">1</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Leandro Delgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Gianmarco Izzi">
+  <data key="d0">1</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Fabio Loche">
+  <data key="d0">1</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Daniele Maronese">
+  <data key="d0">1</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Riccardo Pollo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Fabio Soffia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Lorenzo Bosio" target="Giuseppe Squillace">
+  <data key="d0">1</data>
+</edge>
+<edge source="Andrea Bragagnolo" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Andrea Bragagnolo" target="Edoardo Arnaudo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Andrea Bragagnolo" target="Lorenzo Bosio">
+  <data key="d0">1</data>
+</edge>
+<edge source="Andrea Bragagnolo" target="Daniele Brun">
+  <data key="d0">1</data>
+</edge>
+<edge source="Andrea Bragagnolo" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Andrea Bragagnolo" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Andrea Bragagnolo" target="Gianmarco Izzi">
+  <data key="d0">1</data>
+</edge>
+<edge source="Andrea Bragagnolo" target="Chiara Madeddu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Andrea Bragagnolo" target="Michel Miegge">
+  <data key="d0">1</data>
+</edge>
+<edge source="Andrea Bragagnolo" target="Manuel Monaco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Andrea Bragagnolo" target="Giuseppe Squillace">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Brun" target="Edoardo Arnaudo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Brun" target="Lorenzo Bosio">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Brun" target="Andrea Bragagnolo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Brun" target="Fabio Carretto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Brun" target="Antonio Carriero">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Brun" target="Michele Castrovilli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Brun" target="Francesco Cerrato">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Brun" target="Leandro Delgado">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Brun" target="Gianmarco Izzi">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Brun" target="Chiara Madeddu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Brun" target="Daniele Maronese">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Brun" target="Kate May">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Brun" target="Riccardo Pollo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Francesco Carli" target="Simone Appella">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Enrico Maria Belliardo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Samuele Bertaina">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Dario Delle Vedove">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Fabrizio Di Priamo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Madeleine Duretete">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Marco Murtinu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Leonardo Neves Pinto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Vanessa Orani">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Eleonora Pennetta">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Matteo Petrosino">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Sara Pezzuolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Elisabetta Sola">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Ilaria Trano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Carli" target="Alessia Valentino">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Carretto" target="Edoardo Arnaudo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Carretto" target="Lorenzo Bosio">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Carretto" target="Andrea Bragagnolo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Daniele Brun">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Carretto" target="Antonio Carriero">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Carretto" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Francesco Cerrato">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Carretto" target="Gabriele Cucinelli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Leandro Delgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Matteo Di Cunzolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Carretto" target="Nicolò Ferretti">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Gianmarco Izzi">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Chiara Madeddu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Daniele Maronese">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Michel Miegge">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Manuel Monaco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Riccardo Pollo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Valeria Proietti Dante">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Carretto" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Carretto" target="Fabio Soffia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Carretto" target="Giuseppe Squillace">
+  <data key="d0">1</data>
+</edge>
+<edge source="Antonio Carriero" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Antonio Carriero" target="Lorenzo Bosio">
+  <data key="d0">2</data>
+</edge>
+<edge source="Antonio Carriero" target="Daniele Brun">
+  <data key="d0">2</data>
+</edge>
+<edge source="Antonio Carriero" target="Fabio Carretto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Antonio Carriero" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Antonio Carriero" target="Francesco Cerrato">
+  <data key="d0">2</data>
+</edge>
+<edge source="Antonio Carriero" target="Gabriele Cucinelli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Antonio Carriero" target="Leandro Delgado">
+  <data key="d0">2</data>
+</edge>
+<edge source="Antonio Carriero" target="Mario Ferrulli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Antonio Carriero" target="Gianmarco Izzi">
+  <data key="d0">1</data>
+</edge>
+<edge source="Antonio Carriero" target="Chiara Madeddu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Antonio Carriero" target="Daniele Maronese">
+  <data key="d0">2</data>
+</edge>
+<edge source="Antonio Carriero" target="Kate May">
+  <data key="d0">1</data>
+</edge>
+<edge source="Antonio Carriero" target="Riccardo Pollo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Antonio Carriero" target="Valeria Proietti Dante">
+  <data key="d0">2</data>
+</edge>
+<edge source="Antonio Carriero" target="Giuseppe Squillace">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michele Castrovilli" target="Daniele Brun">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michele Castrovilli" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michele Castrovilli" target="Francesco Cerrato">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michele Castrovilli" target="Leandro Delgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michele Castrovilli" target="Gianmarco Izzi">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michele Castrovilli" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michele Castrovilli" target="Daniele Maronese">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michele Castrovilli" target="Stefano Mazza">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michele Castrovilli" target="Maurizio Rosignoli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michele Castrovilli" target="Daniele Scanu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michele Castrovilli" target="Giuseppe Squillace">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Paolo Didier Alfano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Lorenzo Bosio">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Daniele Brun">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Fabio Carretto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Antonio Carriero">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Michele Castrovilli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Luca De Carne">
+  <data key="d0">1</data>
+</edge>
+<edge source="Francesco Cerrato" target="Leandro Delgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="Francesco Cerrato" target="Gianmarco Izzi">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Fabio Loche">
+  <data key="d0">1</data>
+</edge>
+<edge source="Francesco Cerrato" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Daniele Maronese">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Kate May">
+  <data key="d0">1</data>
+</edge>
+<edge source="Francesco Cerrato" target="Stefano Mazza">
+  <data key="d0">1</data>
+</edge>
+<edge source="Francesco Cerrato" target="Michel Miegge">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Luis Olimpio">
+  <data key="d0">1</data>
+</edge>
+<edge source="Francesco Cerrato" target="Riccardo Pollo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Maurizio Rosignoli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Francesco Cerrato" target="Giuseppe Squillace">
+  <data key="d0">2</data>
+</edge>
+<edge source="Luca Cocchetti" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca Cocchetti" target="Lorenzo Bosio">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca Cocchetti" target="Antonio Carriero">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca Cocchetti" target="Luca De Carne">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca Cocchetti" target="Leandro Delgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca Cocchetti" target="Fabio Loche">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca Cocchetti" target="Chiara Madeddu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca Cocchetti" target="Daniele Maronese">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca Cocchetti" target="Manuel Monaco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca Cocchetti" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Lorenzo Bosio">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Francesco Carli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Antonio Carriero">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Luca Cocchetti">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Leandro Delgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Matteo Di Cunzolo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Gianmarco Izzi">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Daniele Maronese">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Stefano Mazza">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gabriele Cucinelli" target="Giuseppe Squillace">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca De Carne" target="Francesco Cerrato">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca De Carne" target="Luca Cocchetti">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca De Carne" target="Leandro Delgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca De Carne" target="Maurizio Rosignoli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Luca De Carne" target="Fabio Soffia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Luca De Carne" target="Giuseppe Squillace">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leandro Delgado" target="Lorenzo Bosio">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leandro Delgado" target="Daniele Brun">
+  <data key="d0">2</data>
+</edge>
+<edge source="Leandro Delgado" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leandro Delgado" target="Antonio Carriero">
+  <data key="d0">2</data>
+</edge>
+<edge source="Leandro Delgado" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leandro Delgado" target="Francesco Cerrato">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leandro Delgado" target="Luca Cocchetti">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leandro Delgado" target="Gabriele Cucinelli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leandro Delgado" target="Luca De Carne">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leandro Delgado" target="Mario Ferrulli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Leandro Delgado" target="Chiara Madeddu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leandro Delgado" target="Daniele Maronese">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leandro Delgado" target="Riccardo Pollo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leandro Delgado" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Simone Appella">
+  <data key="d0">2</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Samuele Bertaina">
+  <data key="d0">1</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Fabrizio Di Priamo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Madeleine Duretete">
+  <data key="d0">1</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Marco Murtinu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Leonardo Neves Pinto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Vanessa Orani">
+  <data key="d0">2</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Eleonora Pennetta">
+  <data key="d0">1</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Matteo Petrosino">
+  <data key="d0">2</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Sara Pezzuolo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Elisabetta Sola">
+  <data key="d0">1</data>
+</edge>
+<edge source="Dario Delle Vedove" target="Ilaria Trano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Matteo Di Cunzolo" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Matteo Di Cunzolo" target="Fabio Carretto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Matteo Di Cunzolo" target="Nicolò Ferretti">
+  <data key="d0">2</data>
+</edge>
+<edge source="Matteo Di Cunzolo" target="Eleonora Pennetta">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabrizio Di Priamo" target="Simone Appella">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabrizio Di Priamo" target="Enrico Maria Belliardo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabrizio Di Priamo" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabrizio Di Priamo" target="Dario Delle Vedove">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabrizio Di Priamo" target="Madeleine Duretete">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabrizio Di Priamo" target="Leonardo Neves Pinto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabrizio Di Priamo" target="Vanessa Orani">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabrizio Di Priamo" target="Sara Pezzuolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Madeleine Duretete" target="Simone Appella">
+  <data key="d0">1</data>
+</edge>
+<edge source="Madeleine Duretete" target="Enrico Maria Belliardo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Madeleine Duretete" target="Samuele Bertaina">
+  <data key="d0">1</data>
+</edge>
+<edge source="Madeleine Duretete" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Madeleine Duretete" target="Dario Delle Vedove">
+  <data key="d0">1</data>
+</edge>
+<edge source="Madeleine Duretete" target="Fabrizio Di Priamo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Madeleine Duretete" target="Marco Murtinu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Madeleine Duretete" target="Eleonora Pennetta">
+  <data key="d0">1</data>
+</edge>
+<edge source="Madeleine Duretete" target="Sara Pezzuolo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Madeleine Duretete" target="Ilaria Trano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Madeleine Duretete" target="Alessia Valentino">
+  <data key="d0">1</data>
+</edge>
+<edge source="Nicolò Ferretti" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Nicolò Ferretti" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Nicolò Ferretti" target="Matteo Di Cunzolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Mario Ferrulli" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Mario Ferrulli" target="Leandro Delgado">
+  <data key="d0">2</data>
+</edge>
+<edge source="Mario Ferrulli" target="Matteo Di Cunzolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Mario Ferrulli" target="Riccardo Pollo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Edoardo Arnaudo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Lorenzo Bosio">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Andrea Bragagnolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Daniele Brun">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Antonio Carriero">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Michele Castrovilli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Francesco Cerrato">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Luca Cocchetti">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Fabio Loche">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Kate May">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Stefano Mazza">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Michel Miegge">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Manuel Monaco">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Valeria Proietti Dante">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Maurizio Rosignoli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Gianmarco Izzi" target="Giuseppe Squillace">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Loche" target="Paolo Didier Alfano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Loche" target="Edoardo Arnaudo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Loche" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Loche" target="Mario Ferrulli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Loche" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Loche" target="Kate May">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Loche" target="Michel Miegge">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Loche" target="Manuel Monaco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Loche" target="Riccardo Pollo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Loche" target="Valeria Proietti Dante">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Loche" target="Maurizio Rosignoli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Loche" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Loche" target="Fabio Soffia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Loche" target="Giuseppe Squillace">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Paolo Didier Alfano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Edoardo Arnaudo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Lorenzo Bosio">
+  <data key="d0">1</data>
+</edge>
+<edge source="Chiara Madeddu" target="Andrea Bragagnolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Daniele Brun">
+  <data key="d0">1</data>
+</edge>
+<edge source="Chiara Madeddu" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Chiara Madeddu" target="Antonio Carriero">
+  <data key="d0">1</data>
+</edge>
+<edge source="Chiara Madeddu" target="Michele Castrovilli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Francesco Cerrato">
+  <data key="d0">1</data>
+</edge>
+<edge source="Chiara Madeddu" target="Luca Cocchetti">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Gabriele Cucinelli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Leandro Delgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="Chiara Madeddu" target="Mario Ferrulli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Chiara Madeddu" target="Gianmarco Izzi">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Fabio Loche">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Kate May">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Stefano Mazza">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Michel Miegge">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Manuel Monaco">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Riccardo Pollo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Valeria Proietti Dante">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Maurizio Rosignoli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Fabio Soffia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Chiara Madeddu" target="Giuseppe Squillace">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Maronese" target="Daniele Brun">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Maronese" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Maronese" target="Antonio Carriero">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Maronese" target="Michele Castrovilli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Maronese" target="Francesco Cerrato">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Maronese" target="Leandro Delgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Maronese" target="Gianmarco Izzi">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Maronese" target="Chiara Madeddu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Maronese" target="Kate May">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Maronese" target="Stefano Mazza">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Maronese" target="Luis Olimpio">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Maronese" target="Riccardo Pollo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Maronese" target="Maurizio Rosignoli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Maronese" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Kate May" target="Paolo Didier Alfano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Kate May" target="Edoardo Arnaudo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Kate May" target="Daniele Brun">
+  <data key="d0">1</data>
+</edge>
+<edge source="Kate May" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Kate May" target="Luca Cocchetti">
+  <data key="d0">1</data>
+</edge>
+<edge source="Kate May" target="Gianmarco Izzi">
+  <data key="d0">1</data>
+</edge>
+<edge source="Kate May" target="Fabio Loche">
+  <data key="d0">2</data>
+</edge>
+<edge source="Kate May" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Kate May" target="Manuel Monaco">
+  <data key="d0">2</data>
+</edge>
+<edge source="Kate May" target="Riccardo Pollo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Kate May" target="Valeria Proietti Dante">
+  <data key="d0">1</data>
+</edge>
+<edge source="Kate May" target="Maurizio Rosignoli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Kate May" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Kate May" target="Giuseppe Squillace">
+  <data key="d0">2</data>
+</edge>
+<edge source="Stefano Mazza" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Stefano Mazza" target="Francesco Cerrato">
+  <data key="d0">1</data>
+</edge>
+<edge source="Stefano Mazza" target="Gabriele Cucinelli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Stefano Mazza" target="Gianmarco Izzi">
+  <data key="d0">2</data>
+</edge>
+<edge source="Stefano Mazza" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Stefano Mazza" target="Daniele Maronese">
+  <data key="d0">1</data>
+</edge>
+<edge source="Stefano Mazza" target="Michel Miegge">
+  <data key="d0">2</data>
+</edge>
+<edge source="Stefano Mazza" target="Manuel Monaco">
+  <data key="d0">2</data>
+</edge>
+<edge source="Stefano Mazza" target="Valeria Proietti Dante">
+  <data key="d0">2</data>
+</edge>
+<edge source="Stefano Mazza" target="Maurizio Rosignoli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michel Miegge" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michel Miegge" target="Edoardo Arnaudo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michel Miegge" target="Andrea Bragagnolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michel Miegge" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michel Miegge" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michel Miegge" target="Francesco Cerrato">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michel Miegge" target="Gianmarco Izzi">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michel Miegge" target="Fabio Loche">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michel Miegge" target="Chiara Madeddu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michel Miegge" target="Kate May">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michel Miegge" target="Stefano Mazza">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michel Miegge" target="Manuel Monaco">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michel Miegge" target="Riccardo Pollo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michel Miegge" target="Valeria Proietti Dante">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michel Miegge" target="Maurizio Rosignoli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Michel Miegge" target="Fabio Soffia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Michel Miegge" target="Giuseppe Squillace">
+  <data key="d0">2</data>
+</edge>
+<edge source="Manuel Monaco" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Manuel Monaco" target="Edoardo Arnaudo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Manuel Monaco" target="Andrea Bragagnolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Manuel Monaco" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Manuel Monaco" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Manuel Monaco" target="Gianmarco Izzi">
+  <data key="d0">2</data>
+</edge>
+<edge source="Manuel Monaco" target="Fabio Loche">
+  <data key="d0">2</data>
+</edge>
+<edge source="Manuel Monaco" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Manuel Monaco" target="Kate May">
+  <data key="d0">2</data>
+</edge>
+<edge source="Manuel Monaco" target="Stefano Mazza">
+  <data key="d0">2</data>
+</edge>
+<edge source="Manuel Monaco" target="Michel Miegge">
+  <data key="d0">2</data>
+</edge>
+<edge source="Manuel Monaco" target="Riccardo Pollo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Manuel Monaco" target="Maurizio Rosignoli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Manuel Monaco" target="Giuseppe Squillace">
+  <data key="d0">2</data>
+</edge>
+<edge source="Marco Murtinu" target="Simone Appella">
+  <data key="d0">2</data>
+</edge>
+<edge source="Marco Murtinu" target="Samuele Bertaina">
+  <data key="d0">2</data>
+</edge>
+<edge source="Marco Murtinu" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Marco Murtinu" target="Dario Delle Vedove">
+  <data key="d0">2</data>
+</edge>
+<edge source="Marco Murtinu" target="Madeleine Duretete">
+  <data key="d0">1</data>
+</edge>
+<edge source="Marco Murtinu" target="Leonardo Neves Pinto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Marco Murtinu" target="Vanessa Orani">
+  <data key="d0">2</data>
+</edge>
+<edge source="Marco Murtinu" target="Matteo Petrosino">
+  <data key="d0">2</data>
+</edge>
+<edge source="Marco Murtinu" target="Sara Pezzuolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Marco Murtinu" target="Elisabetta Sola">
+  <data key="d0">2</data>
+</edge>
+<edge source="Leonardo Neves Pinto" target="Simone Appella">
+  <data key="d0">2</data>
+</edge>
+<edge source="Leonardo Neves Pinto" target="Samuele Bertaina">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leonardo Neves Pinto" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Leonardo Neves Pinto" target="Dario Delle Vedove">
+  <data key="d0">2</data>
+</edge>
+<edge source="Leonardo Neves Pinto" target="Fabrizio Di Priamo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leonardo Neves Pinto" target="Marco Murtinu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leonardo Neves Pinto" target="Eleonora Pennetta">
+  <data key="d0">1</data>
+</edge>
+<edge source="Leonardo Neves Pinto" target="Sara Pezzuolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Leonardo Neves Pinto" target="Ilaria Trano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Luis Olimpio" target="Antonio Carriero">
+  <data key="d0">2</data>
+</edge>
+<edge source="Luis Olimpio" target="Francesco Cerrato">
+  <data key="d0">2</data>
+</edge>
+<edge source="Luis Olimpio" target="Gabriele Cucinelli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Luis Olimpio" target="Daniele Maronese">
+  <data key="d0">2</data>
+</edge>
+<edge source="Vanessa Orani" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Vanessa Orani" target="Simone Appella">
+  <data key="d0">2</data>
+</edge>
+<edge source="Vanessa Orani" target="Enrico Maria Belliardo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Vanessa Orani" target="Samuele Bertaina">
+  <data key="d0">1</data>
+</edge>
+<edge source="Vanessa Orani" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Vanessa Orani" target="Dario Delle Vedove">
+  <data key="d0">2</data>
+</edge>
+<edge source="Vanessa Orani" target="Fabrizio Di Priamo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Vanessa Orani" target="Marco Murtinu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Vanessa Orani" target="Eleonora Pennetta">
+  <data key="d0">1</data>
+</edge>
+<edge source="Vanessa Orani" target="Sara Pezzuolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Vanessa Orani" target="Ilaria Trano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Eleonora Pennetta" target="Simone Appella">
+  <data key="d0">2</data>
+</edge>
+<edge source="Eleonora Pennetta" target="Samuele Bertaina">
+  <data key="d0">1</data>
+</edge>
+<edge source="Eleonora Pennetta" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Eleonora Pennetta" target="Dario Delle Vedove">
+  <data key="d0">1</data>
+</edge>
+<edge source="Eleonora Pennetta" target="Matteo Di Cunzolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Eleonora Pennetta" target="Madeleine Duretete">
+  <data key="d0">1</data>
+</edge>
+<edge source="Eleonora Pennetta" target="Leonardo Neves Pinto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Eleonora Pennetta" target="Vanessa Orani">
+  <data key="d0">1</data>
+</edge>
+<edge source="Eleonora Pennetta" target="Matteo Petrosino">
+  <data key="d0">1</data>
+</edge>
+<edge source="Eleonora Pennetta" target="Sara Pezzuolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Eleonora Pennetta" target="Elisabetta Sola">
+  <data key="d0">1</data>
+</edge>
+<edge source="Matteo Petrosino" target="Simone Appella">
+  <data key="d0">1</data>
+</edge>
+<edge source="Matteo Petrosino" target="Enrico Maria Belliardo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Matteo Petrosino" target="Samuele Bertaina">
+  <data key="d0">1</data>
+</edge>
+<edge source="Matteo Petrosino" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Matteo Petrosino" target="Dario Delle Vedove">
+  <data key="d0">2</data>
+</edge>
+<edge source="Matteo Petrosino" target="Marco Murtinu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Matteo Petrosino" target="Eleonora Pennetta">
+  <data key="d0">1</data>
+</edge>
+<edge source="Matteo Petrosino" target="Sara Pezzuolo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Matteo Petrosino" target="Ilaria Trano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Simone Appella">
+  <data key="d0">2</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Enrico Maria Belliardo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Samuele Bertaina">
+  <data key="d0">1</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Dario Delle Vedove">
+  <data key="d0">2</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Fabrizio Di Priamo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Madeleine Duretete">
+  <data key="d0">1</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Marco Murtinu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Leonardo Neves Pinto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Vanessa Orani">
+  <data key="d0">2</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Eleonora Pennetta">
+  <data key="d0">2</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Matteo Petrosino">
+  <data key="d0">1</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Elisabetta Sola">
+  <data key="d0">2</data>
+</edge>
+<edge source="Sara Pezzuolo" target="Ilaria Trano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Riccardo Pollo" target="Paolo Didier Alfano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Riccardo Pollo" target="Edoardo Arnaudo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Riccardo Pollo" target="Lorenzo Bosio">
+  <data key="d0">1</data>
+</edge>
+<edge source="Riccardo Pollo" target="Daniele Brun">
+  <data key="d0">1</data>
+</edge>
+<edge source="Riccardo Pollo" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Riccardo Pollo" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Riccardo Pollo" target="Francesco Cerrato">
+  <data key="d0">2</data>
+</edge>
+<edge source="Riccardo Pollo" target="Luca Cocchetti">
+  <data key="d0">1</data>
+</edge>
+<edge source="Riccardo Pollo" target="Leandro Delgado">
+  <data key="d0">1</data>
+</edge>
+<edge source="Riccardo Pollo" target="Nicolò Ferretti">
+  <data key="d0">1</data>
+</edge>
+<edge source="Riccardo Pollo" target="Gianmarco Izzi">
+  <data key="d0">2</data>
+</edge>
+<edge source="Riccardo Pollo" target="Fabio Loche">
+  <data key="d0">2</data>
+</edge>
+<edge source="Riccardo Pollo" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Riccardo Pollo" target="Kate May">
+  <data key="d0">2</data>
+</edge>
+<edge source="Riccardo Pollo" target="Michel Miegge">
+  <data key="d0">1</data>
+</edge>
+<edge source="Riccardo Pollo" target="Manuel Monaco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Riccardo Pollo" target="Valeria Proietti Dante">
+  <data key="d0">2</data>
+</edge>
+<edge source="Riccardo Pollo" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Riccardo Pollo" target="Giuseppe Squillace">
+  <data key="d0">2</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Paolo Didier Alfano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Lorenzo Bosio">
+  <data key="d0">1</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Antonio Carriero">
+  <data key="d0">1</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Francesco Cerrato">
+  <data key="d0">1</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Gianmarco Izzi">
+  <data key="d0">1</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Fabio Loche">
+  <data key="d0">2</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Kate May">
+  <data key="d0">1</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Stefano Mazza">
+  <data key="d0">2</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Michel Miegge">
+  <data key="d0">1</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Riccardo Pollo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Maurizio Rosignoli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Fabio Soffia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Valeria Proietti Dante" target="Giuseppe Squillace">
+  <data key="d0">1</data>
+</edge>
+<edge source="Silvia Ronchiadin" target="Claudia Berloco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Silvia Ronchiadin" target="Adane Nega Tarakegn">
+  <data key="d0">1</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Lorenzo Bosio">
+  <data key="d0">1</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Michele Castrovilli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Francesco Cerrato">
+  <data key="d0">2</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Luca De Carne">
+  <data key="d0">1</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Gianmarco Izzi">
+  <data key="d0">2</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Fabio Loche">
+  <data key="d0">2</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Daniele Maronese">
+  <data key="d0">2</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Kate May">
+  <data key="d0">1</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Stefano Mazza">
+  <data key="d0">2</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Michel Miegge">
+  <data key="d0">2</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Manuel Monaco">
+  <data key="d0">2</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Fabio Soffia">
+  <data key="d0">1</data>
+</edge>
+<edge source="Maurizio Rosignoli" target="Giuseppe Squillace">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Scanu" target="Paolo Didier Alfano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Lorenzo Bosio">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Fabio Carretto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Daniele Scanu" target="Francesco Cerrato">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Luca Cocchetti">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Leandro Delgado">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Gianmarco Izzi">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Fabio Loche">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Chiara Madeddu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Daniele Maronese">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Kate May">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Riccardo Pollo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Valeria Proietti Dante">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Fabio Soffia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Daniele Scanu" target="Giuseppe Squillace">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Soffia" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Soffia" target="Lorenzo Bosio">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Soffia" target="Fabio Carretto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Soffia" target="Luca De Carne">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Soffia" target="Fabio Loche">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Soffia" target="Chiara Madeddu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Soffia" target="Michel Miegge">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fabio Soffia" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fabio Soffia" target="Giuseppe Squillace">
+  <data key="d0">2</data>
+</edge>
+<edge source="Elisabetta Sola" target="Simone Appella">
+  <data key="d0">1</data>
+</edge>
+<edge source="Elisabetta Sola" target="Enrico Maria Belliardo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Elisabetta Sola" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Elisabetta Sola" target="Dario Delle Vedove">
+  <data key="d0">1</data>
+</edge>
+<edge source="Elisabetta Sola" target="Marco Murtinu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Elisabetta Sola" target="Eleonora Pennetta">
+  <data key="d0">1</data>
+</edge>
+<edge source="Elisabetta Sola" target="Sara Pezzuolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Elisabetta Sola" target="Ilaria Trano">
+  <data key="d0">2</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Paolo Didier Alfano">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Simone Appella">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Edoardo Arnaudo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Lorenzo Bosio">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Andrea Bragagnolo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Fabio Carretto">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Michele Castrovilli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Francesco Cerrato">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Gabriele Cucinelli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Luca De Carne">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Gianmarco Izzi">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Fabio Loche">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Chiara Madeddu">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Daniele Maronese">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Kate May">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Michel Miegge">
+  <data key="d0">2</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Manuel Monaco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Riccardo Pollo">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Maurizio Rosignoli">
+  <data key="d0">1</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Daniele Scanu">
+  <data key="d0">2</data>
+</edge>
+<edge source="Giuseppe Squillace" target="Fabio Soffia">
+  <data key="d0">2</data>
+</edge>
+<edge source="Adane Nega Tarakegn" target="Claudia Berloco">
+  <data key="d0">1</data>
+</edge>
+<edge source="Adane Nega Tarakegn" target="Silvia Ronchiadin">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ilaria Trano" target="Simone Appella">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ilaria Trano" target="Samuele Bertaina">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ilaria Trano" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ilaria Trano" target="Dario Delle Vedove">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ilaria Trano" target="Madeleine Duretete">
+  <data key="d0">1</data>
+</edge>
+<edge source="Ilaria Trano" target="Leonardo Neves Pinto">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ilaria Trano" target="Vanessa Orani">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ilaria Trano" target="Matteo Petrosino">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ilaria Trano" target="Sara Pezzuolo">
+  <data key="d0">2</data>
+</edge>
+<edge source="Ilaria Trano" target="Elisabetta Sola">
+  <data key="d0">2</data>
+</edge>
+<edge source="Alessia Valentino" target="Simone Appella">
+  <data key="d0">1</data>
+</edge>
+<edge source="Alessia Valentino" target="Samuele Bertaina">
+  <data key="d0">2</data>
+</edge>
+<edge source="Alessia Valentino" target="Francesco Carli">
+  <data key="d0">2</data>
+</edge>
+<edge source="Alessia Valentino" target="Madeleine Duretete">
+  <data key="d0">1</data>
+</edge>
+</graph></graphml>
