@@ -210,7 +210,7 @@ We also compute the average degree, the maximum degree and the standard deviatio
 \begin{itemize}
 	\item Average degree : 49.6099
 	\item Standard deviation: 59.7496
-	\item Maximum degree: 544\footnote{Note that this degree belongs to node 160, which will appear again and again in this analysis, being the most central node in the graph with a degree way above that of the others.}
+	\item Maximum degree: 544\footnote{Note that this degree belongs to node \#160, which will appear again and again in this analysis, being the most central node in the graph with a degree way above that of the others.}
 \end{itemize}
 It may be of interest to study the degree's distribution also in the department graph. Note that, differently from what we have found in the emails graph, the plots below strongly deviate from the theoretical behavior of a power-law.
 \begin{figure} [H]
@@ -263,26 +263,26 @@ It is apparent how different the distribution of the distances in the \textit{ma
 \section*{Centrality}
 Understand which groups or single nodes are central for a network is not immediate: indeed there are several different measures of centrality, each focusing on a slightly different aspect and proposing and slightly different notion of centrality. However we will see that in our graph all these measures will agree in identifying the central group and the central node.
 
-The first measure we compute is probably the simplest and most intuitive one, the \textbf{degree centrality}, which measures the centrality of a node by its degree, i.e., by the number of nodes connected to it. Unsurprisingly, coherently with that we obtained when we studied the degree distribution, we see that node number 160 is the most central node. Moreover, node 160 as well as all the other most central nodes, belongs to department 36, which is identified as the most central department.
+The first measure we compute is probably the simplest and most intuitive one, the \textbf{degree centrality}, which measures the centrality of a node by its degree, i.e., by the number of nodes connected to it. Unsurprisingly, coherently with that we obtained when we studied the degree distribution, we see that node \#160 is the most central node. Moreover, node \#160 as well as most of the other most central nodes, belongs to department 36, which is identified as the most central department.
 
-A second measure of centrality is the \textbf{eigenvector centrality}: the idea underneath this measure is that a high eigenvector score means that a node is connected to many nodes who themselves have high scores. Despite using a different measure, we still find that node 160, belonging to department 36, is the one with highest eigenvector centrality.
+A second measure of centrality is the \textbf{eigenvector centrality}: the idea underneath this measure is that a high eigenvector score means that a node is connected to many nodes who have high scores themselves. Despite using a different measure, we still find that node \#160, belonging to department 36, is the one with highest eigenvector centrality.
 
 Another possible measure is the \textbf{closeness centrality}, calculated as the sum of the lengths of the shortest paths between the node and all other nodes in the graph. For a node $n$ 
 \begin{equation*}
 C(n) = \sum_{m \neq n}\frac{1}{d(n,m)}
 \end{equation*}
 where $m$ is another node in the graph, is its closeness centrality.
-Thus the more central a node is, the closer it is to all other nodes. Once more, the node 160 is the one with the highest centrality measure.
+Thus the more central a node is, the closer it is to all other nodes. Once more, node \#160 is the one with the highest centrality measure.
 
 Eventually, we compute the \textbf{betweeness centrality}, defined as the number of shortest paths that pass through a node, i.e., 
 \begin{equation*}
 b(n) = \sum_{m \neq n\neq l} \frac{\sigma_{m,l}(n)}{\sigma_{m,l}}
 \end{equation*}
-where $\sigma _{m,l}$ is the total number of shortest paths from node $m$ to node $l$ and  $\sigma_{m,l}(n)$ is the number of those paths that pass through $n$. Also in this case, node 160 receives the highest score.
+where $\sigma _{m,l}$ is the total number of shortest paths from node $m$ to node $l$ and  $\sigma_{m,l}(n)$ is the number of those paths that pass through $n$. Also in this case, node \#160 receives the highest score.
 
 However, the situation becomes less clear when analyzing the centrality of the departments network: we are going to see that the centrality measures on this graph will support our previous conclusions only to some extent.
 
-We have a first confirm of the centrality of the department 36, that we discovered in the emails network, by using the degree centrality: this department scores a value slightly higher than departments 1 and 15. The situation becomes less clear when computing the betwness centrality: in this case the department 4 gets a value significantly higher (0.0551) than the value of department 36 (0.0223).
+We have a first confirmation of the centrality of the department 36, that we discovered in the emails network, by using the \textit{degree centrality}: this department scores a value slightly higher than departments 1 and 15. The situation becomes less clear when computing the betwness centrality: in this case the department 4 gets a value significantly higher (0.0551) than the value of department 36 (0.0223).
 \section*{Clustering coefficient}
 First, we compute the average clustering coefficient for the whole graph. Note that in order to do this we need to use the undirected version.
 \begin{itemize}
@@ -290,7 +290,7 @@ First, we compute the average clustering coefficient for the whole graph. Note t
 \end{itemize}
 
 
-We are also interested in checking the clustering coefficient of the most central node, 160, which is 0.0935.  
+We are also interested in checking the clustering coefficient of the most central node, \#160, which is 0.0935.  
 
 
 Note that the fact that the clustering coefficient of the most central node is very low makes sense: since it is connected to huge number of nodes, it would be strange if a lot of them were connected to each other; indeed, they can be far away from each other.
@@ -302,11 +302,11 @@ Another measure of the thickness of the graph is its \textbf{density}, defined a
 	\item Density of email network: 0.0247
 	\item Density of department network: 0.7886
 \end{itemize}
-As we might expect, the departments network is much more dense then the emails graph.
+As we might expect, the departments network is much more dense than the emails graph.
 \section*{Homophily}
-We would like to understand whether our network exhibits some sort of homophily. However, this analysis is difficult in our situation, becausee we do not know anything about the single node: the only information that we have about a person is his or her department, we do not know anything about his age, gender, nationality or other personal features with respect to analyze the homophily. Therefore, we are bound to try to compute the homophily with respect to the only information we have, the department. Note that this a "formal" homophily: we will basically understand whether people in the same department communicate more often with people within their department than with people of other departments.
+We would like to understand whether our network exhibits some sort of \textit{homophily}. However, this analysis is difficult in our situation, becausee we do not know anything about the single node: the only information that we have about a person is his or her department, we do not know anything about his age, gender, nationality or other personal features with respect to analyze the homophily. Therefore, we are bound to try to compute the homophily with respect to the only information we have, the department. Note that this a ``formal'' homophily: we will basically understand whether people in the same department communicate more often with people within their department than with people of other departments.
 
-To analyze homophily we consider a network in which the attribute "department" is randomly assigned to each node with probability proportional to the proportion of nodes belonging to that department in the original network. Therefore, denoting by $p_i$ the probability that a node belongs to department $i$, and considering two random nodes linked by an edge, the probability that they belong to the same department is
+To analyze homophily we consider a network in which the attribute \textit{department} is randomly assigned to each node with probability proportional to the proportion of nodes belonging to that department in the original network. Therefore, denoting by $p_i$ the probability that a node belongs to department $i$, and considering two random nodes linked by an edge, the probability that they belong to the same department is
 \begin{equation*}
 \sum_{i=0}^{41} p_i^2
 \end{equation*}
@@ -318,7 +318,7 @@ Instead, considering our network and counting the proportion of edges between no
 \section*{Assortativity}
 The \textbf{assortativity} represents the preference of a network's nodes to attach  to others that are similar in some way. We operationalize this idea by measuring assortativity, as it is common practice, with respect to nodes' degree.
 
-The plot below clearly shows that there is no evidence for assortativity: indeed, in such a case, we would expect an increasing trend of the curve. By the same token, in case of dissortativity, we would expect a decreasing trend in the curve. In this case, we cannot see any of these behaviors, hence we must conclude that our network is neutral.
+The plot below clearly shows that there is no evidence for assortativity: indeed, in such a case, we would expect an increasing trend of the curve. By the same token, in case of dissortativity, we would expect a decreasing trend in the curve. In this case, we cannot see any of these behaviors, hence we must conclude that our network is mostly neutral with respect to assortativity\footnote{Actually one could argue that the network is assortative only for very small degrees, but due to the lack of more data in this regard, this assertion remains in the realm of speculation.}.
 \begin{figure} [H]
 	\centering
 	\centerline{\includegraphics[width = 13cm, height = 12cm, keepaspectratio]{assortativity.png}}
