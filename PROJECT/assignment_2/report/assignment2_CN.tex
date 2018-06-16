@@ -12,6 +12,7 @@
 \usepackage{amsthm}
 \usepackage[all]{xy}
 \usepackage[font={footnotesize}]{caption}
+\usepackage[bottom]{footmisc}  % To have footnotes on the bottom instead of glued to the end of the text in the page
 
 \usetikzlibrary{arrows}
 \usetikzlibrary{matrix}
@@ -39,11 +40,11 @@
 \begin{document}
 	\maketitle
 \section*{Introduction}	
-The dataset we are going to analyze contains information about the email communications between 1005 people working in the same university. For each person we know to which department of the university they belong. There are 42 departments: we do not know the departments' names, they are just labeled from 0 to 41.
+The dataset we are going to analyze contains information about the e-mail communications between 1005 people working in the same university. For each person we know to which department of the university they belong. There are 42 departments: we do not know the departments' names, they are just labeled with the integers in the range $[0, 41]$.
 
-Since each node (person) can send as well as receive mails, the natural way to model this situation is a directed graph where each node respresents a person and each edge represents an email beetwen two people: particularly, for a node $n$, an inner-edge represents the receipt of an email, while an outer-edge means that he sent an email. Each node possesses the attribute \textit{department} which represents, of course, their department as an integer.
+Since each node (person) can send as well as receive mails, the natural way to model this situation is a directed graph where each node respresents a person and each edge represents an email beetwen two people: particularly, for a node $n$, an inner-edge represents the receipt of an email, while an outer-edge means that he sent an email. Each node possesses the attribute \textit{department} which represents, of course, their department (as an integer).
 
-It is good practice to start any data analysis by cleaning the data: in this case we decided to remove all the self-loops in the graph. Indeed, they indicate the mails to one self, which are irrelevant to the analysis. The resulting graph, is visible in Figure \ref{fig:mail_graph}.
+It is good practice to start any data analysis by cleaning the data: in this case we decided to remove all the self-loops in the graph. Indeed, they indicate the mails to one self, which are irrelevant to the analysis\footnote{Supposing the analysis is centered around actual relationships between people and departments, and not something like mail utilization.}. The resulting graph, is visible in Figure \ref{fig:mail_graph}.
 
 We also created an alternative, undirected version of the graph: we will see that this will be useful for some analysis and some interesting comparisons in the proceeding of this work. Clearly, we are aware that this two versions of the graph do have some differences, the most notable one being the numbers of edges and, consequently, the degree of nodes.
 \bigskip
@@ -180,9 +181,9 @@ COMPONENT 202:
 	\item Relative Size (proportion of edges): 0.0\\
 \end{itemize}
 
-Even in this case we easily recognize the giant component to be the component 162: it contains around $80\%$ of the nodes and more than the $96\%$ of all the edges of the graph. The other 201 components are composed just by a single node.
+Even in this case we easily recognize the giant component to be the component \#162: it contains around $80\%$ of the nodes and more than the $96\%$ of all the edges of the graph. The other 201 components are composed just by a single node. This is the best situation we could hope for, in a sense, since it enable us to do further analysis that require connectedness without having to discard a significant portion of the network.
 
-Eventually, we calculated also the number of connected components in the departments network: as expected, there is only one such component.
+Eventually, we calculated also the number of connected components in the departments network and, as expected by the nature of it, there is only one such component, which means that it is possible to find a communication path from each department to any other (thakfully).
 \newpage
 \section*{Degree}
 
@@ -192,11 +193,10 @@ Let us now study the distribution of the degree among nodes.
 \begin{figure} [H]
 	\centering
 	\centerline{\includegraphics[width = 18cm, height = 14cm, keepaspectratio]{degree_distribution_fit.png}}
-	\label{Degree}
-	\caption{The first graph represents the degree distribution: its shape resembles a power law, therefore, in order to confirm it, we plot it again after a log transformation. The red lines represent the theoretical power-law that best fits the data. In both cases we can say that the data roughly follow a power-law, at least to some extent.}
+	\caption{The first graph represents the degree distribution: its shape resembles a power law, therefore, in order to confirm it, we plot it again after a log transformation. The red lines represent the theoretical power-law that best fits the data. In both cases we can say that the data roughly follow a power-law, at least to some extent.} \label{fig:DegDistMail}
 \end{figure}
 
-The first plot shows the degree distribution of the nodes: its shape resembles, to some extent, a power-law, which may be reasonable since the degree of a node can be intended as a kind of popularity measure of the node itself. However the first plot is not enough to fully confirm such hypothesis, therefore we apply a logarithmic transformation. Indeed, if $f(k)$, the function representing the frequency of the degree $k$ among nodes, follows a power-law, then
+The first plot in Figure \ref{fig:DegDistMail} shows the degree distribution of the nodes: its shape roughly resembles a power-law, which may be reasonable since the degree of a node can be intended as a kind of popularity measure of the node itself. However the first plot is not enough to fully confirm such hypothesis, therefore we apply a logarithmic transformation. Indeed, if $f(k)$, the function representing the frequency of the degree $k$ among nodes, follows a power-law, then
 \begin{equation*}
 f(k)  = \frac{a}{k^c}
 \end{equation*}
@@ -212,31 +212,31 @@ We also compute the average degree, the maximum degree and the standard deviatio
 	\item Standard deviation: 59.7496
 	\item Maximum degree: 544\footnote{Note that this degree belongs to node \#160, which will appear again and again in this analysis, being the most central node in the graph with a degree way above that of the others.}
 \end{itemize}
-It may be of interest to study the degree's distribution also in the department graph. Note that, differently from what we have found in the emails graph, the plots below strongly deviate from the theoretical behavior of a power-law.
+It may be of interest to study the degree's distribution also in the department graph. Note that, differently from what we have found in the emails graph, the plots in Figure \ref{fig:DegDistDep} strongly deviate from the theoretical behavior of a power-law.
 \begin{figure} [H]
 	\centering
-	\centerline{\includegraphics[width = 18cm, height = 14cm, keepaspectratio]{DEP_degree_distribution.png}}	\caption{Degree distribution in the departments graph: in the first plot we have the degrees on the $x$-axis and their frequences on the $y$-axis. In the second one we applied a log transformation to better evaluate the presence of a power law distribution, which is clearly not present.}
+	\centerline{\includegraphics[width = 18cm, height = 14cm, keepaspectratio]{DEP_degree_distribution.png}}	\caption{Degree distribution in the departments graph: in the first plot we have the degrees on the $x$-axis and their frequences on the $y$-axis. In the second one we applied a log transformation to better evaluate the presence of a power law distribution, which is clearly not present.} \label{fig:DegDistDep}
 \end{figure}
 \newpage
 \section*{Distances}
 We now compute the distribution of distances: it is important to stress that in this analysis we are bound to consider only the \textit{giant strongly connected component} for the directed graph and the \textit{giant connected component} for the undirected graph, otherwise we would obtain infinite values. Let us first study the directed graph.
+
+The distribution of distances in the \textit{giant strongly connected component} is shown in Figure \ref{fig:DistDistrDir}.
 \begin{figure} [H]
 	\centering
 	\centerline{\includegraphics[width = 13cm, height = 12cm, keepaspectratio]{distance_distribution.png}}
-	\label{Dist}
-	\caption{Distance distribution in the directed graph.}
+	\caption{Distance distribution in the directed graph.} \label{fig:DistDistrDir}
 \end{figure}
  We then compute some statistics of such distribution\footnote{Note that for this analysis we decided to exclude the null distances, \textit{i.e.} all the distances between any node and itself, which will always be the same number as the number of nodes.}:
  \begin{itemize}
  	\item Average distance in the strongly connected component: 2.5443
  	\item Standard deviation of distance in the strongly connected component: 0.6757
  \end{itemize}
-Let us now do the same for the undirected graph.
+Let us now do the same for the undirected graph, as seen in Figure \ref{fig:DistDistrUndir}.
 \begin{figure} [H]
 	\centering
 	\centerline{\includegraphics[width = 13cm, height = 12cm, keepaspectratio]{distance_distribution_und.png}}
-	\label{Dist_und}
-	\caption{Distance distribution in the undirected graph.}
+	\caption{Distance distribution in the undirected graph.} \label{fig:DistDistrUndir}
 \end{figure}
 Once more, we compute the average and standard deviation of the distribution:
  \begin{itemize}
@@ -318,12 +318,11 @@ Instead, considering our network and counting the proportion of edges between no
 \section*{Assortativity}
 The \textbf{assortativity} represents the preference of a network's nodes to attach  to others that are similar in some way. We operationalize this idea by measuring assortativity, as it is common practice, with respect to nodes' degree.
 
-The plot below clearly shows that there is no evidence for assortativity: indeed, in such a case, we would expect an increasing trend of the curve. By the same token, in case of dissortativity, we would expect a decreasing trend in the curve. In this case, we cannot see any of these behaviors, hence we must conclude that our network is mostly neutral with respect to assortativity\footnote{Actually one could argue that the network is assortative only for very small degrees, but due to the lack of more data in this regard, this assertion remains in the realm of speculation.}.
+The plot in Figure \ref{fig:AssortMail} clearly shows that there is no evidence for assortativity: indeed, in such a case, we would expect an increasing trend of the curve. By the same token, in case of dissortativity, we would expect a decreasing trend in the curve. In this case, we cannot see any of these behaviors, hence we must conclude that our network is mostly neutral with respect to assortativity\footnote{Actually one could argue that the network is assortative only for very small degrees, but due to the lack of more data in this regard, this assertion remains in the realm of speculation.}.
 \begin{figure} [H]
 	\centering
 	\centerline{\includegraphics[width = 13cm, height = 12cm, keepaspectratio]{assortativity.png}}
-	\label{Ass}
-	\caption{Assortativity in the emails graph: there is no clear evidence neither for assortativity nor for dissortativity. We may conclude that the network is neutral.}
+	\caption{Assortativity in the emails graph: there is no clear evidence neither for assortativity nor for dissortativity. We may conclude that the network is neutral.} \label{fig:AssortMail}
 \end{figure}
 As we have done for all the other analysis, let us see whether we can find assortativity in the departments graph. We can see that, differently from the emails network, the graph shows some dissortativity, having a degree assortativity coefficient of -0.1786. This suggests that departments with high degree are slightly incline to attach to departments with lower degree.
  \begin{figure} [H]
