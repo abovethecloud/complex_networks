@@ -39,11 +39,13 @@
 \begin{document}
 	\maketitle
 \section*{Introduction}	
-The dataset we are going to analyze contains information about the email communications between 1005 people working in the same university. For each person we know to which department of the university he or she belongs. There are 42 departments: we do not know the departments' names, they are just labeled from 0 to 41.
+The dataset we are going to analyze contains information about the email communications between 1005 people working in the same university. For each person we know to which department of the university they belong. There are 42 departments: we do not know the departments' names, they are just labeled from 0 to 41.
 
-Since each node (person) can send as well as receive mails, the natural way to model this situation is a directed graph where each node respresents a person and each edge represents an email beetwen two people: particularly, for a node $n$, an inner-edge represents the receipt of an email, while an outer-edge means that he sent an email. Each node posses the attribute 'Department'.
+Since each node (person) can send as well as receive mails, the natural way to model this situation is a directed graph where each node respresents a person and each edge represents an email beetwen two people: particularly, for a node $n$, an inner-edge represents the receipt of an email, while an outer-edge means that he sent an email. Each node possesses the attribute \textit{department} which represents, of course, their department as an integer.
 
-It is good practice to start any data analysis by cleaning the data: in this case we decided to remove all the self-loops in the graph. Indeed, they indicate the mails to one self, which are irrelevant to the analysis. We also created an alternative, undirected version of the graph: we will see that this will be useful for some analysis and some interesting comparisons in the proceeding of this work. Clearly, we are aware that this two versions of the graph do have some differences, the most notable one being the numbers of edges and, consequently, the degree of nodes.
+It is good practice to start any data analysis by cleaning the data: in this case we decided to remove all the self-loops in the graph. Indeed, they indicate the mails to one self, which are irrelevant to the analysis. The resulting graph, is visible in Figure \ref{fig:mail_graph}.
+
+We also created an alternative, undirected version of the graph: we will see that this will be useful for some analysis and some interesting comparisons in the proceeding of this work. Clearly, we are aware that this two versions of the graph do have some differences, the most notable one being the numbers of edges and, consequently, the degree of nodes.
 \bigskip
 
 DIRECTED VERSION:
@@ -54,7 +56,6 @@ DIRECTED VERSION:
 \item Average in degree: 24.8050
 \item Average out degree: 24.8050
 \end{itemize}
-
 
 
 UNDIRECTED VERSION:
@@ -68,11 +69,10 @@ UNDIRECTED VERSION:
 \begin{figure} [H]
 	\centering
 	\centerline{\includegraphics[width = 24cm, height = 18cm, keepaspectratio]{eMail_graph.png}}
-	\label{Email}
-	\caption{Emails graph: the size of nodes is proportional to their degree, the colors represent the modularity class assigned by Gephi. The colors of the edges denote the modularity class of the source.}
+	\caption{Emails graph: the size of nodes is proportional to their degree, the colors represent the modularity class assigned by Gephi. The colors of the edges denote the modularity class of the source.} \label{fig:mail_graph}
 \end{figure}
 
-We created another related graph, representing only the departments: this is an undirected weighted graph having the departments as nodes,  and where the edge between two departments has a weight proportional to the number of communications between their elements. We will see that this graph will be useful to draw interesting conclusions, looking at the data with an aggregate perspective. Here is a summary of this graph:
+We created another related graph, visible in Figure \ref{fig:dep_graph}, representing only the departments: this is an undirected weighted graph having the departments as nodes, where the edge between two departments has a weight proportional to the number of communications between their elements. We will see that this graph will be useful to draw further conclusions, looking at the data with an aggregate perspective. Here is a summary of this graph:
 
 \begin{itemize}
 	\item Number of nodes: 42
@@ -82,12 +82,13 @@ We created another related graph, representing only the departments: this is an 
 \begin{figure} [H]
 	\centering
 	\centerline{\includegraphics[width = 12cm, height = 14cm, keepaspectratio]{Departments_graph.png}}
-	\label{Department}
-	\caption{Departments graph: the size of nodes is proportional to their weighted degree, the colors represent the modularity class assigned by Gephi.}
+	\caption{Departments graph: the size of nodes is proportional to their weighted degree, the colors represent the modularity class assigned by Gephi.} \label{fig:dep_graph}
 \end{figure}
 \section*{Connected components and Giant component}
 
-We start our study by analyzing the structure of the network by searching for the weakly and strongly connected components in both the directed and the undirected mail graphs.
+We begin our study by analyzing the structure of the network.
+
+First, we search for the weakly and strongly connected components in both the directed and the undirected mail graphs.
 \begin{itemize}
 	\item Number of connected components (undirected version): 20
 	\item Number of weakly connected components: 20
@@ -95,7 +96,7 @@ We start our study by analyzing the structure of the network by searching for th
 \end{itemize}
 
 
-Clearly, the number of connected components of the undirected graph is the same as the number of weakly connected components of the directed graph.
+Clearly, the number of connected components of the undirected graph is the same as the number of weakly connected components of the directed graph, as expected by definition.
 
 It comes as no surprise that the strongly connected components are much more than the weakly connected components, since the latter is a easier requirements to meet: recall that a directed graph is said to be \textbf{strongly connected} if any vertex is reacheable from every other vertex, whereas a directed graph is \textbf{weakly connected} if, by substituting all its edges with undirected edges, we obtain a connected graph.
 
@@ -128,6 +129,7 @@ COMPONENT 2:
 \item Relative Size (proportion of edges): 0.0\\
 \end{itemize}
 
+$\vdots$
 
 COMPONENT 19:
 \begin{itemize}
@@ -137,7 +139,8 @@ COMPONENT 19:
 \item Relative Size (proportion of edges): 0.0\\
 \end{itemize}
 
-It is easy to see that the first component represents a giant component: indeed it contains more than $98\%$ of all the nodes and all the edges of the graph, whereas the other 19 components are all composed by a single node.\\
+It is easy to see that the first component represents a giant component: indeed it contains more than $98\%$ of all the nodes and all the edges of the graph, whereas the other 19 components are all composed by a single node (they are what we may call detached leaves).
+
 Let us now try to find a giant component also in the directed graph.
 \bigskip 
 
@@ -157,6 +160,7 @@ COMPONENT 1:
 	\item Relative Size (proportion of edges): 0.0\\
 \end{itemize}
 
+$\vdots$
 
 COMPONENT 162:
 \begin{itemize}
@@ -166,6 +170,7 @@ COMPONENT 162:
 	\item Relative Size (proportion of edges): 0.9683\\
 \end{itemize}
 
+$\vdots$
 
 COMPONENT 202:
 \begin{itemize}
@@ -188,7 +193,7 @@ Let us now study the distribution of the degree among nodes.
 	\centering
 	\centerline{\includegraphics[width = 18cm, height = 14cm, keepaspectratio]{degree_distribution_fit.png}}
 	\label{Degree}
-	\caption{The first graph represents the degree distribution: its shape resembles a power law, therefore, in order to confirm it, we plot it again after a log transformation. The red lines represent the theoretical power-law that best fits the data. In both cases we can say thatthe dat roughly follow a power-law, at least to some extent.}
+	\caption{The first graph represents the degree distribution: its shape resembles a power law, therefore, in order to confirm it, we plot it again after a log transformation. The red lines represent the theoretical power-law that best fits the data. In both cases we can say that the data roughly follow a power-law, at least to some extent.}
 \end{figure}
 
 The first plot shows the degree distribution of the nodes: its shape resembles, to some extent, a power-law, which may be reasonable since the degree of a node can be intended as a kind of popularity measure of the node itself. However the first plot is not enough to fully confirm such hypothesis, therefore we apply a logarithmic transformation. Indeed, if $f(k)$, the function representing the frequency of the degree $k$ among nodes, follows a power-law, then
@@ -205,7 +210,7 @@ We also compute the average degree, the maximum degree and the standard deviatio
 \begin{itemize}
 	\item Average degree : 49.6099
 	\item Standard deviation: 59.7496
-	\item Maximum degree: 544
+	\item Maximum degree: 544\footnote{Note that this degree belongs to node 160, which will appear again and again in this analysis, being the most central node in the graph with a degree way above that of the others.}
 \end{itemize}
 It may be of interest to study the degree's distribution also in the department graph. Note that, differently from what we have found in the emails graph, the plots below strongly deviate from the theoretical behavior of a power-law.
 \begin{figure} [H]
@@ -214,14 +219,14 @@ It may be of interest to study the degree's distribution also in the department 
 \end{figure}
 \newpage
 \section*{Distances}
-We compute now the distribution of distances: it is important to stress that in this analysis we are bound to consider only the strongly giant component for the directed graph and the giant component for the undirected graph, otherwise we will obtain infinite values. Let us first study the directed graph.
+We now compute the distribution of distances: it is important to stress that in this analysis we are bound to consider only the \textit{giant strongly connected component} for the directed graph and the \textit{giant connected component} for the undirected graph, otherwise we would obtain infinite values. Let us first study the directed graph.
 \begin{figure} [H]
 	\centering
 	\centerline{\includegraphics[width = 13cm, height = 12cm, keepaspectratio]{distance_distribution.png}}
 	\label{Dist}
 	\caption{Distance distribution in the directed graph.}
 \end{figure}
- We compute then the average and standard deviation of such distribution:
+ We then compute some statistics of such distribution\footnote{Note that for this analysis we decided to exclude the null distances, \textit{i.e.} all the distances between any node and itself, which will always be the same number as the number of nodes.}:
  \begin{itemize}
  	\item Average distance in the strongly connected component: 2.5443
  	\item Standard deviation of distance in the strongly connected component: 0.6757
@@ -233,12 +238,12 @@ Let us now do the same for the undirected graph.
 	\label{Dist_und}
 	\caption{Distance distribution in the undirected graph.}
 \end{figure}
-Once more, we compute also the average and standard deviation of the distribution:
+Once more, we compute the average and standard deviation of the distribution:
  \begin{itemize}
 	\item Average distance in the connected component: 2.5843
 	\item Standard deviation of distance in the connected component: 0.6970
 \end{itemize}
-To conclude our discussion about distances in the emails network, we compute the eccentricities in the strongly giant component as well as in the giant component. In both cases, we report the diameter and the radius of the networks.
+To conclude our discussion about distances in the emails network, we compute the \textit{eccentricities} in the strongly giant component as well as in the giant component. In both cases, we report the diameter and the radius of the networks (which are the \textit{max} and \textit{min} eccentricities respectively).
 \begin{itemize}
 	\item Radius of the giant strongly connected component: 3
 	\item Radius of the giant connected component: 4
@@ -254,6 +259,7 @@ Once more, we conclude the analysis by studying the distance distribution also o
 	\label{Dist_dep}
 	\caption{Distance distribution in the departments graph.}
 \end{figure}
+It is apparent how different the distribution of the distances in the \textit{mail network} and the one in the \textit{department network} are. This comes to no surprise, considering that for two departments to be neighbors it is sufficient that any two people inside them exchanged a single mail.
 \section*{Centrality}
 Understand which groups or single nodes are central for a network is not immediate: indeed there are several different measures of centrality, each focusing on a slightly different aspect and proposing and slightly different notion of centrality. However we will see that in our graph all these measures will agree in identifying the central group and the central node.
 
