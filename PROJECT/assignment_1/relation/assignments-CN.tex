@@ -32,8 +32,9 @@
 \newcommand{\la}{\ensuremath{_{\ast}}}
 \newcommand{\upa}{\ensuremath{^{\ast}}}
 
-\title{Complex Networks}
+\title{Complex Networks\\ \large Assignment 1}
 \author{{Marco Murtinu, Claudio Peroni}}
+\date{June 13, 2018}
 
 \begin{document}
 	\maketitle
@@ -42,15 +43,15 @@
 
 In this exercise we analyze a network representing 50 farmers living along a 50-mile-long stretch of river. Each farmer lives on a portion of land that occupies a 1-mile stretch of the river bank. The farmers all know each other and, after interviewing them, we discovered that each of them is friends with all the neighbors that live at most 20 miles away, and sees as an enemy all the others.\\
 To model such situation with a network, the natural choice is an \textit{undirected complete signed network}, where the sign of the edges will represent whether its two endpoints are friends or enemies. We are asked to understand whether such network is \textbf{structurally balanced}.\\
-First of all, let us give a look to such network.\\
+First of all, let us give a look to such network. For that, we represent the whole graph using \textit{python} and \textit{Gephi}, as seen in Figure \ref{fig:50farmers}, and an equivalent, but smaller, network in Figure \ref{fig:10farmers}.\\
 \begin{figure} [h]
 	\centering
-	\includegraphics [scale = 0.3]{farmers_complete.png}
+	\includegraphics [scale = 0.28]{farmers_complete.png}
 	\caption{\textit{Farmers network}. The nodes represent the farmers, numbered from 0 to 49, with their size being proportional to their signed degree; the edges represent the kind of relation two farmers have: blue for positive, red for negative. \textit{Gephi} identifies two modularity classes, green and yellow. Note that the nodes are split symmetrically at the center, and inside each class there are both friends and enemies.} 	\label{fig:50farmers}
 \end{figure}
 \begin{figure} [h]
 	\centering
-	\includegraphics [scale = 0.3]{farmers_reduced.png}
+	\includegraphics [scale = 0.2]{farmers_reduced.png}
 	\caption{A smaller network (10 nodes, with \textit{friendship radius} of 4) for visualization purposes. It maintains the same structure as the complete one.}  \label{fig:10farmers}
 \end{figure}
 
@@ -66,7 +67,7 @@ In our case the sign + represents friendship between farmers, the sign - represe
 
 Note that such property is a natural consequence of people tendency to avoid stressful situations in their social lives: indeed, a triangle with 2 sign + and only one sign -, represents the situation in which two people who do not get along with each other share a common friend. Although possible, this is a very unstable social situation: on the average, we expect that the common friend will be eventually able to change the situation, at least to some extent, so to have three mutual friends. By the same token, people tend to avoid situations in which there are three mutual enemies: history tells us that probably two of them will become allies.
 
-It is easy to see in figure \ref{fig:50farmers} why our network does \textbf{not} satisfy the Structural Balance property. Let us denote by 1 the node representing the leftmost farmers, by 2 the node representing its neighbor, by 3 the node immediatly to the right of 2, ans so on. Let us now consider the triangle composed by nodes 1,2 and 21: being neighbors, 1 and 2 are friends. Moreover, also 2 and 21 are friends, since they live within 20 miles from each other. However, 1 and 21 are enemies, since they live at more than 20 miles from each other.
+It is easy to see in figure \ref{fig:50farmers} why our network does \textbf{not} satisfy the Structural Balance property. Let us denote by 1 the node representing the leftmost farmers, by 2 the node representing its neighbor, by 3 the node immediatly to the right of 2, ans so on. Let us now consider the triangle composed by nodes 1, 2 and 21: being neighbors, 1 and 2 are friends. Moreover, also 2 and 21 are friends, since they live within 20 miles from each other. However, 1 and 21 are enemies, since they live at more than 20 miles from each other.
 
 This simple example is enough to show that the network in not structurally balanced. However, let us see that such property does not hold also from a global point of view. The global counterpart of the Structural Balance property is the \textbf{Balance Theorem}.
 \begin{thm}
@@ -90,7 +91,7 @@ Unfortunately however, in our case this situation arises only in a portion of th
 \end{thm}
 We see that, from a global point of view, the \textbf{Weak Balance theorem} allow an arbitrary number of homogeneous groups of friends. However, once more, nodes 1, 2 and 21 prove that the farmers' graph is not weakly balanced: indeed 2 should belong to the group of 1's friends and to the group of 21's friends as well, but 1 and 21 are enemies, thus they do not belong to the same group.
 
-To sum things up, it seems that the way this network is structured is almost the \textit{opposite}, in some sense, to a structurally balanced network, since we will never be able to split the graph in subgraphs all friends with each other.
+To sum things up, it seems that the way this network is structured is almost the \textit{opposite}, in some sense, to a structurally balanced network, since we will never be able to split the graph in subgraphs of friends.
 \newpage
 
 \section*{Exercise 21.3}
